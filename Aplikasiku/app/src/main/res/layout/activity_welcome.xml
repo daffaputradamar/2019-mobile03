@@ -30,18 +30,6 @@
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toBottomOf="@+id/calendar" />
 
-	<TextView
-		android:id="@+id/sub_welcome"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_marginTop="8dp"
-		android:fontFamily="@font/montserrat_light"
-		android:text="Relax your Soul, Relax your Life"
-		android:textColor="#313131"
-		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toStartOf="parent"
-		app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
-
 	<ImageView
 		android:id="@+id/background_satu"
 		android:layout_width="408dp"
@@ -54,6 +42,18 @@
 		app:layout_constraintTop_toBottomOf="@+id/sub_welcome"
 		app:layout_constraintVertical_bias="1.0"
 		app:srcCompat="@drawable/bg_yellow" />
+
+	<TextView
+		android:id="@+id/sub_welcome"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="8dp"
+		android:fontFamily="@font/montserrat_light"
+		android:text="Relax your Soul, Relax your Life"
+		android:textColor="#313131"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
 
 	<TextView
 		android:id="@+id/login_text"
